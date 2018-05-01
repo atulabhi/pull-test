@@ -1,0 +1,312 @@
+.hangout-img {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.hangout-text {
+    text-align: center;
+    color: #f15a29;
+    padding: 2.5% 0%;
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.join {
+    background-color: #282828;
+    text-align: center;
+    color: #ffffff;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.75rem;
+}
+
+.previous-hangout {
+    background-color: #f15a29;
+    text-align: center;
+    color: #ffffff;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.75rem;
+}
+
+.hangout-left {
+    padding: 5% 0%;
+}
+
+.pd-row {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.openebs-hangout-img img {
+    width: 65%;
+}
+
+.para p {
+    font-size: 1.15rem;
+}
+
+.countdown-timer {
+    background-color: #282828;
+    color: #ffffff;
+    font-size: 1.5rem;
+    height: 125px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0%;
+}
+
+.theme2 {
+    overflow-x: hidden;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.countdown-timer .count-number {
+    font-size: 1.5rem;
+}
+
+.countdown-timer .count-text {
+    font-size: 0.5rem;
+}
+
+.countdown-note {
+    padding: 0% 0% 4% 0%;
+    text-align: center;
+}
+
+.countdown-note h2 {
+    color: #f15a29;
+}
+
+.form-div {
+    margin: 2% 0%;
+}
+
+.form-control {
+    font-size: 1.25rem;
+}
+
+.right-element-div {
+    width: 90%;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0rem;
+    font-size: 1rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms {
+    padding: 2% 0%;
+}
+
+.inline-div {
+    width: auto;
+    padding: 2% 7%;
+    display: inline-block;
+}
+
+.form-check-input {
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    width: 20px;
+    height: 20px;
+    padding: 2%;
+}
+
+.submit-btn {
+    text-align: right;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    border: none;
+    padding: 1% 2%;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0;
+    transition: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #f15a29;
+    border-color: #f15a29;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #f15a29;
+    border-color: #f15a29;
+}
+
+.pre-hangout {
+    /* border: 1px dotted black; */
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pre-circle {
+    border: 5px solid #f2f2f2;
+    width: 65px;
+    border-radius: 50%;
+    height: 65px;
+    text-align: center;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    background-color: #282828;
+}
+
+.pre-circle:hover {
+    background-color: #f15a29;
+    border-color: #f15a29;
+}
+
+.pre-text {
+    /* border: 1px dotted green; */
+    padding: 2% 0%;
+    text-align: center;
+}
+
+.hangout-form {
+    background-image: linear-gradient(to right, #f2f2f2 50%, #ffffff 50%);
+}
+
+.allhangout {
+    height: 150px;
+    display: flex;
+}
+
+@media screen and (max-width:767px) {
+    .hangout-text {
+        font-size: 2.5rem;
+    }
+    .mobile-reverse {
+        flex-direction: column-reverse;
+    }
+    .join {
+        font-size: 1.5rem;
+    }
+    .hangout-form {
+        background-image: linear-gradient(to bottom, #f2f2f2 68.25%, #ffffff 31.75%);
+        text-align: center;
+        /* background-color: #f2f2f2; */
+    }
+    .openebs-hangout-img {
+        padding: 8% 0%;
+    }
+    .forms {
+        padding: 8% 0%;
+    }
+    .allhangout {
+        height: 100%;
+        display: flex;
+        padding: 5% 0%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .hangout-form {
+        /* background-image: linear-gradient(to bottom, #f2f2f2 68.25%, #ffffff 31.75%); */
+        background-image: none;
+    }
+    .container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .row {
+        margin: 0;
+    }
+    .hangout-left {
+        background-color: #f2f2f2;
+    }
+    .rmpd {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .hangout-form {
+        background-image: none;
+        /* background-image: linear-gradient(to bottom, #f2f2f2 64.25%, #ffffff 31.75%); */
+    }
+    .hangout-text {
+        font-size: 2.15rem;
+    }
+    .join {
+        height: 75px;
+        font-size: 1.25rem;
+    }
+    .openebs-hangout-img img {
+        width: 60%;
+    }
+    .countdown-timer {
+        height: 100px;
+    }
+    .form-control {
+        font-size: 1.05rem;
+    }
+    .previous-hangout {
+        height: 75px;
+        font-size: 1.25rem;
+    }
+    .pre-circle {
+        width: 55px;
+        height: 55px;
+    }
+    .inline-div {
+        width: 40%;
+    }
+    .pre-text {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .hangout-form {
+        background-image: linear-gradient(to bottom, #f2f2f2 58.25%, #ffffff 31.75%);
+    }
+    .hangout-text {
+        font-size: 2rem;
+    }
+    .join {
+        height: 75px;
+    }
+    .para p {
+        font-size: 1rem;
+    }
+    .inline-div {
+        width: 47%;
+    }
+    .countdown-note h2 {
+        font-size: 0.95rem;
+    }
+    .pre-text {
+        font-size: 0.70rem;
+    }
+}
+
+@media screen and (max-width:320px) {}

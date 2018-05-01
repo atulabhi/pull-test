@@ -1,0 +1,13 @@
+COMMIT=${TRAVIS_COMMIT::6}
+echo$COMMIT
+gcloud auth activate-service-account --key-file "${GOOGLE_APPLICATION_CREDENTIALS}"
+gcloud container clusters get-credentials mayadata-production --zone us-central1-a --project mayastaging-186704
+curl -L https://github.com/weaveworks/flux/releases/download/1.1.0/fluxctl_linux_amd64 -o fluxctl
+sudo chmod +x fluxctl 
+sudo cp fluxctl /usr/local/bin
+kubectl get pods
+fluxpod=$(kubectl get pod -l name=flux -o name | awk -F / '{ print $2; }')
+echo $fluxpod
+export FLUX_URL="http://localhost:10080/api/flux"
+bash -c "kubectl port-forward $fluxpod 10080:3030" & sleep 10
+bash -c "fluxctl release --controller=default:deployment/stage-openebs --update-image=mayadata/www-openebs-io:$COMMIT"

@@ -1,0 +1,137 @@
+<style>
+    .active-link {
+        background-color: #e7e7e7;
+    }
+</style>
+
+
+
+<div class="workload pd-t-b-heading1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 pd-t-b-heading2">
+                <h3 class="text-center">Workloads</h3>
+            </div>
+
+            <div class="col-md-12 pd-t-b-heading2 desktop">
+                <div class="workloads-outer">
+                    <div class="workload-img " routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
+                        <a [routerLink]="['/']"><img src="assets/images/workloads/jenkins-tag.svg" alt=""></a>
+                    </div>
+                    <div class="workload-img" routerLinkActive="active-link">
+                        <a [routerLink]="['/percona']"><img src="assets/images/workloads/percona-tag.svg" alt=""></a>
+                    </div>
+                    <div class="workload-img" routerLinkActive="active-link">
+                        <a [routerLink]="['/rabbitmq']"><img src="assets/images/workloads/rabbitmq-tag.svg" alt=""></a>
+                    </div>
+                    <div class="workload-img" routerLinkActive="active-link">
+                        <a [routerLink]="['/kafka']"><img src="assets/images/workloads/kafka-tag.svg" alt=""></a>
+                    </div>
+                    <div class="workload-img" routerLinkActive="active-link">
+                        <a [routerLink]="['/galera']"><img src="assets/images/workloads/galera-tag.svg" alt=""></a>
+                    </div>
+
+                    <div class="workload-img" routerLinkActive="active-link">
+                        <a [routerLink]="['/jupyter']"><img src="assets/images/workloads/jupyter-tag.svg" alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-12 pd-t-b-heading2 desktop">
+                <div class="workloads-outer">
+                    <div class="workload-img" routerLinkActive="active-link">
+                        <a [routerLink]="['/couchbase']"><img src="assets/images/workloads/couchbase-tag.svg" alt=""></a>
+                    </div>
+                    <div class="workload-img" routerLinkActive="active-link">
+                        <a [routerLink]="['/cockroachdb']"><img src="assets/images/workloads/cockroachdb-tag.svg" alt=""></a>
+                    </div>
+                    <div class="workload-img" routerLinkActive="active-link">
+                        <a [routerLink]="['/redis']"><img src="assets/images/workloads/redis-tag.svg" alt=""></a>
+                    </div>
+
+                    <div class="workload-img" routerLinkActive="active-link">
+                        <a [routerLink]="['/cassandra']"><img src="assets/images/workloads/cassandra-tag.svg" alt=""></a>
+                    </div>
+                    <div class="workload-img" routerLinkActive="active-link">
+                        <a [routerLink]="['/postgresql']"><img src="assets/images/workloads/postgresql-tag.svg" alt=""></a>
+                    </div>
+                    <div class="workload-img" routerLinkActive="active-link">
+                        <a [routerLink]="['/mongodb']"> <img src="assets/images/workloads/mongodb-tag.svg" alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 mobile rm-pd-mobile">
+                <div id="workloadid" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" style="height:auto;">
+                            <div class="workloads-outer" style="justify-content:space-evenly">
+                                <div class="workload-img" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
+                                    <a [routerLink]="['/']"><img src="assets/images/workloads/jenkins-tag.svg" alt=""></a>
+                                </div>
+                                <div class="workload-img" routerLinkActive="active-link">
+                                    <a [routerLink]="['/percona']"><img src="assets/images/workloads/percona-tag.svg" alt=""></a>
+                                </div>
+                                <div class="workload-img" routerLinkActive="active-link">
+                                    <a [routerLink]="['/rabbitmq']"><img src="assets/images/workloads/rabbitmq-tag.svg" alt=""></a>
+                                </div>
+
+                            </div>
+                            <div class="workloads-outer" style="justify-content:space-evenly">
+                                <div class="workload-img" routerLinkActive="active-link">
+                                    <a [routerLink]="['/galera']"><img src="assets/images/workloads/galera-tag.svg" alt=""></a>
+                                </div>
+                                <div class="workload-img" routerLinkActive="active-link">
+                                    <a [routerLink]="['/kafka']"><img src="assets/images/workloads/kafka-tag.svg" alt=""></a>
+                                </div>
+                                <div class="workload-img" routerLinkActive="active-link">
+                                    <a [routerLink]="['/jupyter']"><img src="assets/images/workloads/jupyter-tag.svg" alt=""></a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item" style="height:auto;">
+                            <div class="workloads-outer" style="justify-content:space-evenly">
+                                <div class="workload-img" routerLinkActive="active-link">
+                                    <a [routerLink]="['/couchbase']"><img src="assets/images/workloads/couchbase-tag.svg" alt=""></a>
+                                </div>
+                                <div class="workload-img" routerLinkActive="active-link">
+                                    <a [routerLink]="['/cockroachdb']"><img src="assets/images/workloads/cockroachdb-tag.svg" alt=""></a>
+                                </div>
+                                <div class="workload-img" routerLinkActive="active-link">
+                                    <a [routerLink]="['/redis']"><img src="assets/images/workloads/redis-tag.svg" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="workloads-outer" style="justify-content:space-evenly">
+                                <div class="workload-img" routerLinkActive="active-link">
+                                    <a [routerLink]="['/cassandra']"><img src="assets/images/workloads/cassandra-tag.svg" alt=""></a>
+                                </div>
+                                <div class="workload-img" routerLinkActive="active-link">
+                                    <a [routerLink]="['/postgresql']"><img src="assets/images/workloads/postgresql-tag.svg" alt=""></a>
+                                </div>
+                                <div class="workload-img" routerLinkActive="active-link">
+                                    <a [routerLink]="['/mongodb']"> <img src="assets/images/workloads/mongodb-tag.svg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a class="carousel-control-prev" href="#workloadid" role="button" data-slide="prev">
+                        <i class="fa fa-angle-left" aria-hidden="true" style="font-size:40px;color:black;width:10%"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#workloadid" role="button" data-slide="next">
+                        <i class="fa fa-angle-right" aria-hidden="true" style="font-size:40px;color:black;width:10%"></i>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

@@ -1,0 +1,8 @@
+@media screen and (max-width:480px) {
+    .leftul {
+        padding-left: 40%;
+    }
+    .rightul {
+        padding-left: 25%;
+    }
+}

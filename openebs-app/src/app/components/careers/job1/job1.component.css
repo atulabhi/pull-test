@@ -1,0 +1,60 @@
+ul {
+    color: #000;
+}
+
+.vacancy-detail {
+    background-color: #F2F6F9;
+}
+
+.vacancy-detail h1 {
+    color: #ee5b2a;
+}
+
+.location {
+    padding: 1% 0%;
+}
+
+.location p {
+    color: #868e96!;
+}
+
+.aboutjob {
+    padding-left: 5%;
+}
+
+.apply-form h3 {
+    padding: 3% 0%;
+}
+
+.form-apply {
+    padding-bottom: 2.5%;
+}
+
+@media screen and (max-width:768px) {
+    .vacancy-detail {
+        text-align: justify;
+    }
+    .p-5 {
+        padding: 1.5rem!important;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .vacancy-detail h1 {
+        font-size: 1.5rem;
+    }
+    .location p,
+    p {
+        font-size: 0.85rem;
+    }
+    .apply-form h3 {
+        font-size: 1.5rem;
+        padding: 5% 0%;
+        text-align: center;
+    }
+    .form-apply {
+        padding-bottom: 5%;
+    }
+}
+
+@media screen and (max-width:400px) {}

@@ -1,0 +1,96 @@
+.ebs_env h2 {
+    font-size: 1.5rem;
+}
+
+.ebs_env p {
+    font-size: 1rem;
+}
+
+.drop-line {
+    padding: 5% 0%;
+    text-align: center;
+}
+
+.drop-mail h3 {
+    font-size: 1.5rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ee5b2a;
+    border-color: #ee5b2a;
+}
+
+.drop-mail p {
+    font-size: 1rem;
+    padding: 1% 0%;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.75% 1.25%;
+    font-size: 1rem;
+    line-height: 1.15;
+    border-radius: 0;
+    transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+@media screen and (max-width:768px) {
+    .intro-video {
+        height: 314px;
+        width: 90%;
+    }
+    .btn {
+        padding: 1.5% 1.5%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .ebs_env h2 {
+        font-size: 1.25rem;
+    }
+    .card-block h4 {
+        font-size: 1.25rem;
+    }
+    .drop-mail h3 {
+        font-size: 1.25rem;
+    }
+    .drop-mail p {
+        font-size: 0.95rem;
+    }
+    .drop-mail a {
+        font-size: 1rem;
+        padding: 1% 0%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .p-5 {
+        padding-bottom: 0!important;
+    }
+    .ebs_env h2 {
+        font-size: 1.05rem;
+    }
+    .card-block h4 {
+        font-size: 1.05rem;
+    }
+    .drop-mail h3 {
+        font-size: 1.05rem;
+    }
+    .drop-mail p {
+        font-size: 0.85rem;
+    }
+    .drop-mail a {
+        font-size: 0.9rem;
+        padding: 1% 0%;
+    }
+}

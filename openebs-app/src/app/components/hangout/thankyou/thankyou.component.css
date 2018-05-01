@@ -1,0 +1,76 @@
+.hangout-img {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.hangout-text {
+    text-align: center;
+    color: #f15a29;
+    padding: 2.5% 0%;
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.thankyou p,
+.thankyou a {
+    font-size: 1.25rem;
+}
+
+.calender-link {
+    padding: 1% 0%;
+    padding-bottom: 1%;
+}
+
+.top-link {
+    padding-top: 2.5%;
+}
+
+@media screen and (max-width:767px) {
+    .hangout-text {
+        font-size: 2.5rem;
+    }
+    .thankyou p,
+    .thankyou a {
+        font-size: 1.15rem;
+    }
+    .calender-link {
+        padding: 1% 2%;
+        padding-bottom: 1%;
+    }
+    .top-link {
+        padding-top: 2.5%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .hangout-text {
+        font-size: 2.05rem;
+    }
+    .thankyou p,
+    .thankyou a {
+        font-size: 1.05rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .hangout-text {
+        font-size: 1.75rem;
+    }
+    .thankyou p,
+    .thankyou a {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .hangout-text {
+        font-size: 1.5rem;
+    }
+    .thankyou p,
+    .thankyou a {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,14 @@
+a {
+    color: #000;
+}
+
+.active {
+    background-color: #ee5b2a;
+    border-color: #ee5b2a;
+}
+
+@media screen and (max-width:767px) {
+    .news-list {
+        padding: 5% 0%;
+    }
+}
